@@ -2,6 +2,8 @@ import numpy as np
 import json
 from newspaper import Article
 
+test=0
+
 with open('referencefrequencies.json','r') as f:
     frequencies=json.load(f)
     
